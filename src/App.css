@@ -1,0 +1,33 @@
+@import '~antd/dist/antd.css';
+
+.header {
+    background-color: cadetblue;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    width: 40%;
+    margin: auto;
+}
+
+.container .card {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.details {
+    display: flex;
+}
+
+.details .aside{
+    width: 30%;
+}
+
+.details .main {
+    width: 70%;
+    margin: 10px 20px;
+}
